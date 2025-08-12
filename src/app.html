@@ -2,12 +2,12 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/png" href="/static/favicon.ico" />
+		<link rel="icon" type="image/png" href="/static/favicon.png" />
 		<link rel="icon" type="image/png" href="/static/favicon-96x96.png" sizes="96x96" />
-		<link rel="icon" type="image/svg+xml" href="/static/favicon.png" />
+		<link rel="icon" type="image/svg+xml" href="/static/favicon.svg" />
 		<link rel="shortcut icon" href="/static/favicon.ico" />
 		<link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
-		<meta name="apple-mobile-web-app-title" content="VRB OPEN AI" />
+		<meta name="apple-mobile-web-app-title" content="Open WebUI" />
 
 		<link rel="manifest" href="/manifest.json" crossorigin="use-credentials" />
 		<meta
@@ -16,11 +16,11 @@
 		/>
 		<meta name="theme-color" content="#171717" />
 		<meta name="robots" content="noindex,nofollow" />
-		<meta name="description" content="VRB OPEN AI" />
+		<meta name="description" content="Open WebUI" />
 		<link
 			rel="search"
 			type="application/opensearchdescription+xml"
-			title="VRB OPEN AI"
+			title="Open WebUI"
 			href="/opensearch.xml"
 		/>
 		<script src="/static/loader.js" defer></script>
@@ -56,7 +56,6 @@
 					document.documentElement.classList.add('light');
 					metaThemeColorTag.setAttribute('content', '#ffffff');
 				} else if (localStorage.theme === 'her') {
-					document.documentElement.classList.add('dark');
 					document.documentElement.classList.add('her');
 					metaThemeColorTag.setAttribute('content', '#983724');
 				} else {
@@ -92,7 +91,7 @@
 			})();
 		</script>
 
-		<title>VRB OPENAI</title>
+		<title>Open WebUI</title>
 
 		%sveltekit.head%
 	</head>

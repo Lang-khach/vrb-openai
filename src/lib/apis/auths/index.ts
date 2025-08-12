@@ -118,7 +118,7 @@ export const ldapUserSignIn = async (user: string, password: string) => {
 		headers: {
 			'Content-Type': 'application/json'
 		},
-		//credentials: 'include',
+		credentials: 'include',
 		body: JSON.stringify({
 			user: user,
 			password: password
@@ -262,7 +262,7 @@ export const userSignIn = async (email: string, password: string) => {
 		headers: {
 			'Content-Type': 'application/json'
 		},
-		//credentials: 'include',
+		credentials: 'include',
 		body: JSON.stringify({
 			email: email,
 			password: password
@@ -299,7 +299,7 @@ export const userSignUp = async (
 		headers: {
 			'Content-Type': 'application/json'
 		},
-		//credentials: 'include',
+		credentials: 'include',
 		body: JSON.stringify({
 			name: name,
 			email: email,
